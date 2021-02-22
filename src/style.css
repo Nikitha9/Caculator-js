@@ -1,0 +1,33 @@
+.heading{ 
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    text-align:center; 
+    width: 100%; 
+    color:#8f8d97; 
+    border: solid black 2px; 
+} 
+table{
+    width: 100%;
+}
+.box {
+    margin-top:20px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    padding-bottom: 20px;  
+  }
+input[type="button"] { 
+    background-color:#ffffff; 
+    color: black; 
+    border: solid #e0e0e0 2px; 
+    width:100% 
+} 
+input[type="button"]:hover{
+    background-color:#e2e1e1;
+    border: solid #e0e0e0 2px; 
+}
+input[type="text"] 
+    { 
+    background-color:#ffffff; 
+    border: solid #e0e0e0 2px; 
+    width:100% 
+    } 

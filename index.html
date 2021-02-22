@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="src/style.css">
+        <script src="src/index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-4 box">
+                <div class="heading">Simple Calculator</div> 
+                        <table class="table-bordered"> 
+                            <tr> 
+                                <td  colspan="3"><input type="text" id="result"/></td> 
+                                <td><input type="button" value="c" onclick="Clr()"/> </td> 
+                            </tr> 
+                            <tr> 
+                                <td><input type="button" value="1" onclick="Display('1')"/> </td> 
+                                <td><input type="button" value="2" onclick="Display('2')"/> </td> 
+                                <td><input type="button" value="3" onclick="Display('3')"/> </td> 
+                                <td><input type="button" value="/" onclick="Display('/')"/> </td> 
+                            </tr> 
+                            <tr> 
+                                <td><input type="button" value="4" onclick="Display('4')"/> </td> 
+                                <td><input type="button" value="5" onclick="Display('5')"/> </td> 
+                                <td><input type="button" value="6" onclick="Display('6')"/> </td> 
+                                <td><input type="button" value="-" onclick="Display('-')"/> </td> 
+                            </tr> 
+                            <tr> 
+                                <td><input type="button" value="7" onclick="Display('7')"/> </td> 
+                                <td><input type="button" value="8" onclick="Display('8')"/> </td> 
+                                <td><input type="button" value="9" onclick="Display('9')"/> </td> 
+                                <td><input type="button" value="+" onclick="Display('+')"/> </td> 
+                            </tr> 
+                            <tr> 
+                                <td><input type="button" value="." onclick="Display('.')"/> </td> 
+                                <td><input type="button" value="0" onclick="Display('0')"/> </td> 
+                                <td><input type="button" value="=" onclick="Solve()"/> </td> 
+                                <td><input type="button" value="*" onclick="Display('*')"/> </td> 
+                            </tr> 
+                        </table>
+                </div> 
+            </div>
+        </div>
+    </body>
+</html>
