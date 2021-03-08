@@ -1,8 +1,4 @@
-// let useflat = [1,2,3,4];
-// let flatarr = useflat.Array.from(flatArr);
-// function flatArr(item){
-//     return item+=2;
-// }
+
 var newvalues = [-10,-0.20,0.30,1,-40,-50]
 var foundindex = newvalues.findIndex(foundIndex);
 function foundIndex(item){
